@@ -1,0 +1,43 @@
+body{
+    background-color: #0f0f0f;
+}
+
+nav{
+    background-color: darkmagenta;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(42, 14, 143);
+}
+
+ul{
+    list-style: none;
+}
+.nav-link{
+    background-color: red;
+}
+
+.container{
+    border:10px solid red;
+    height: 300px;
+    display: flex;
+    padding-top: 100px;
+    position: relative;
+}
+
+.item{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    max-width: 400px;
+    border: 5px solid blue;
+    
+}
+
+section h1{
+    color: white;
+    
+
+}
