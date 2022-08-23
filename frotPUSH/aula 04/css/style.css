@@ -7,18 +7,23 @@
 
 body{
     background-color: rgb(37, 37, 37);
+   
 
-    
 }
 
 .container{
     max-width: 700px;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     border: 5px solid white;
 
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    /*align-items: flex-start;
+    align-content: space-between;*/
+    
 }
 
 @media (max-width:700px){
@@ -28,8 +33,11 @@ body{
 }
 
 .item{
-    padding: 20px;
+    /*padding: 20px 50px;*/
     margin: 5px;
     background-color: beige;
+    
     text-align: center;
+
+    flex-grow: 1;
 }
